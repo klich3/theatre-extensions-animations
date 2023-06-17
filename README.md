@@ -19,15 +19,7 @@ It is a module for Theatre.js which allows you to import animation into timeline
 
 ***Videos Samples***
 
-<video width="480" controls>
-  <source src="_videos_/1-blender.mp4" type="video/mp4">
-</video>
-<video width="480" controls>
-  <source src="_videos_/2-all-scene.mp4" type="video/mp4">
-</video>
-<video width="480" controls>
-  <source src="_videos_/3-partial.mp4" type="video/mp4">
-</video>
+You can see it browsing `_videos` folder.
 
 ## Instalation and integration
 
