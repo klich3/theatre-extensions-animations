@@ -1,0 +1,26 @@
+#
+# █▀ █▄█ █▀▀ █░█ █▀▀ █░█
+# ▄█ ░█░ █▄▄ █▀█ ██▄ ▀▄▀
+#
+cff-version: 1.2.0
+title: Theatre js Extension for import GLTF Animations
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - email: anton@sychev.xyz
+    given-names: Anton
+    family-names: Sychev
+    affiliation: too
+repository-code: "https://klich3@bitbucket.org/klich3/theatre-extensions-animations.git"
+url: "https://github.com/klich3/theatre-extensions-animations"
+abstract: "It is a module for Theatre.js which allows you to import animation into timeline from a GLTF file."
+keywords:
+  - threejs
+  - react
+  - javascript
+  - Theatre
+license: apache-2.0
+version: 0.0.1
+date-released: "2023-06-16"

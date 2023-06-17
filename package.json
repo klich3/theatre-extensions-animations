@@ -1,0 +1,27 @@
+{
+	"name": "theatre-extensions-animations",
+	"version": "0.0.1",
+	"license": "Apache-2.0",
+	"description": "Module extension for Theatre.js for importing animations form GLTF",
+	"repository": {
+		"type": "git",
+		"url": "https://klich3@bitbucket.org/klich3/theatre-extensions-animations.git"
+	},
+	"author": {
+		"name": "Anton Sychev",
+		"email": "anton@sychev.xyz",
+		"url": "https://sychev.xyz"
+	},
+	"main": "src/index.ts",
+	"files": [
+		"src/*"
+	],
+	"scripts": {},
+	"sideEffects": false,
+	"peerDependencies": {
+		"@theatre/core": "*"
+	},
+	"dependencies": {
+		"@theatre/dataverse": "0.6.1"
+	}
+}
