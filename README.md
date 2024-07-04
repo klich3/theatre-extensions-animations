@@ -1,18 +1,26 @@
 # Theatre GLTF Animations to Track Sequence importer
 
-It's develop for Theater.js 0.6.0
+Plugin to import GLTF animations.
+
+How it works first we have to declare the SCENE and Animations of the GLTF. 
+Then select an animated object, in the right menu click on a keyframe and the timeline will open. Click on the button in the toolbar above.
+
+The keyframes of your GLTF will be recreated on the timeline.
+
+
+It's develop for Theater.js 0.7.2
 
 It is a module for Theatre.js which allows you to import animation into timeline from a GLTF file.
 
-1) Create the studio and register the extension
-2) Import event extension
-3) Import model and call event `GLTFAnimEvent(<animations gltf>)`.
-4) In `Studio` project a sub tab `GLTF Animations Tracks` will appear with animated elements.
+> [!IMPORTANT]
+>***Knowledge of Bugs:***
+>
+>    [ ] You need to enable 'Sequence all' so that the script can reassign animation to the selected properties.
+> 
+>    [x] When reloading the page, the bind is not saved.
+> 
+>    [x] Re-order position axies on import animation
 
-***Knowledge of Bugs:***
-    [ ] You need to enable 'Sequence all' so that the script can reassign animation to the selected properties.
-    [x] When reloading the page, the bind is not saved.
-    [x] Re-order position axies on import animation
 
 ***Theater.js bugs:***
     1) Activate secquence for some object: https://github.com/theatre-js/theatre/issues/352
@@ -20,6 +28,8 @@ It is a module for Theatre.js which allows you to import animation into timeline
 ***Videos Samples***
 
 You can see it browsing `_videos` folder.
+
+---
 
 ## Instalation and integration
 
@@ -63,6 +73,8 @@ function Scene() {
 </Canvas>
 
 ```
+
+---
 
 ### Colaboration
 

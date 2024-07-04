@@ -1,6 +1,6 @@
 #
-# █▀ █▄█ █▀▀ █░█ █▀▀ █░█
-# ▄█ ░█░ █▄▄ █▀█ ██▄ ▀▄▀
+# █▀ █▄█ █▀▀ █░█ █▀▀ █░█
+# ▄█ ░█░ █▄▄ █▀█ ██▄ ▀▄▀
 #
 cff-version: 1.2.0
 title: Theatre js Extension for import GLTF Animations
@@ -22,5 +22,5 @@ keywords:
   - javascript
   - Theatre
 license: apache-2.0
-version: 0.0.1
+version: 0.0.2
 date-released: "2023-06-16"

@@ -1,6 +1,6 @@
 {
 	"name": "theatre-extensions-animations",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "Apache-2.0",
 	"description": "Module extension for Theatre.js for importing animations form GLTF",
 	"keywords": [
@@ -27,10 +27,10 @@
 		"email": "anton@sychev.xyz",
 		"url": "https://sychev.xyz"
 	},
-	"main": "src/index.ts",
 	"files": [
 		"src/*"
 	],
+	"main": "src/index.ts",
 	"ignore": [
 		"node_modules",
 		"_sample",
